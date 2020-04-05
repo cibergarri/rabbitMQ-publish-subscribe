@@ -22,7 +22,7 @@ const publishMessage = async (channel, msg) => {
   return published;
 };
 
-const bindQueue = async (channel, queue) => channel.bindQueue(queue, EXCHANGE_NAME, QUEUE_NAME);
+const bindQueue = async (channel, queue, key = '') => channel.bindQueue(queue, EXCHANGE_NAME, key);
 
 module.exports =  {
   assertExchange,
