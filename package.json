@@ -1,0 +1,23 @@
+{
+  "name": "rabbitmq-publish-subscribe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "receiver": "node ./receive-log",
+    "emit-log": "node ./emit-log"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cibergarri/rabbitMQ-publish-subscribe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cibergarri/rabbitMQ-publish-subscribe/issues"
+  },
+  "homepage": "https://github.com/cibergarri/rabbitMQ-publish-subscribe#readme",
+  "dependencies": {
+    "amqplib": "0.5.5"
+  }
+}
